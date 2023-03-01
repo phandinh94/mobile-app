@@ -1,0 +1,37 @@
+.home-restaurent{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    .img-logo{
+        padding: 10%;
+    }
+    .img-restaurent{
+        width: 100%;
+        .restaurent{
+            width: 100%;
+        }
+    }
+    .content-restaurent{
+        margin: 0% 10%;
+        padding-top: 15%;
+        .restaurent-singin,
+        .restaurent-singup{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            font-size: 20px;
+            padding: 5% 0%;
+            border: 1px solid rgb(242,18,53);
+            border-radius: 20px;
+            background-color:white ;
+            color: rgb(242,18,53);
+        }
+
+        .restaurent-singup:hover,
+        .restaurent-singin:hover{
+            background-color: rgb(242,18,53);
+            color: aliceblue;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        }
+    }
+}
