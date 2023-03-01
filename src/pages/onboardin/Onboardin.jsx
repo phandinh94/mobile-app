@@ -4,7 +4,7 @@ import imgOnboardin1 from "../../assets/onboardin1.png";
 import imgOnboardin2 from "../../assets/onboardin2.png";
 import imgOnboardin3 from "../../assets/onboardin3.png";
 import { useState } from "react";
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 
 function Onboardin() {
   const [click, setClick]=useState(false)
@@ -33,8 +33,10 @@ function Onboardin() {
         <div className="pagination">
         </div>
         
-        <button className="btn-onboardin"><Link className="link-ctn" href="/onboardin">Continue</Link></button>
-        <p className="skip-onboardin">Skip</p>
+        <button className="btn-onboardin">
+          <Link className="link-ctn" to="/onboardin2">Continue</Link>
+          </button>
+        <p className="skip-onboardin"><Link className="skip-singin" to="/singin">Skip</Link></p>
       </div>
 
      <div className="img-elips">

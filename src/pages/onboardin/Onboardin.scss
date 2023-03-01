@@ -53,12 +53,16 @@
             .link-ctn{
                 width: 100%;
                 color: white;
+                text-decoration: none;
             }
         }
 
         .skip-onboardin {
             padding: 3%;
-            color: gray;
+            .skip-singin{
+                text-decoration: none;
+                color: gray;
+            }
         }
 
         .pagination {

@@ -8,13 +8,10 @@ import { Link, Outlet } from "react-router-dom";
 function Mobile() {
   return (
     <>
-     <Onboardin/>
-      {/* <Launch /> */}
+
       <button className="btn-main">
        
-        {/* <Onboardin2/> */}
-        {/* <Onboardin3/> */}
-        {/* <HomeRestaurent/> */}
+
         <Outlet/>
       </button>
     </>

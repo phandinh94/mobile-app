@@ -3,6 +3,7 @@ import imglogo3 from "../../assets/LOGO1.png";
 import imgOn1 from "../../assets/imgOn1.png";
 import imgBg2 from "../../assets/on3-get.png";
 import imgBg1 from "../../assets/on23.png";
+import { Link } from "react-router-dom";
 function Onboardin3() {
   return (
     <div className="onboardin3">
@@ -20,7 +21,7 @@ function Onboardin3() {
           Enjoy a fast and smooth deliver at your
           <br /> doorstep
         </p>
-        <button className="btn-getstart">Get started</button>
+        <button className="btn-getstart"><Link className="link-start" to="/getstart">Get started</Link></button>
       </div>
       <div className="bg-1">
         <img src={imgBg2} />

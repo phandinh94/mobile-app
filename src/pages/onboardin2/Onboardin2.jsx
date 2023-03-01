@@ -3,6 +3,7 @@ import "./Onboardin2.scss"
 import logoOnboardin2 from "../../assets/LOGO1.png";
 import imgOnboardin21 from "../../assets/onboardin2-2.png";
 import imgOnboardin22 from "../../assets/on23.png";
+import { Link } from "react-router-dom";
 
 function Onboardin2() {
     
@@ -26,10 +27,9 @@ function Onboardin2() {
         <div className="pagination">
         </div>
 
-        <button className="btn-onboardin">
-          Continue
+        <button className="btn-onboardin"><Link className="link-ctn" to="/onboardin3">Continue</Link>
         </button>
-        <p className="skip-on2">Skip</p>
+        <p className="skip-on2"><Link className="skip-singin" to="/singin">Skip</Link></p>
       </div>
 
      <div className="img-elips">
